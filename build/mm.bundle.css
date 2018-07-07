@@ -13071,6 +13071,70 @@ mm-course-list-item div.item-icon-left.earlysubmission {
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd; }
 
+#mm-settings-languagelabel {
+  color: #3a3a3a; }
+
+.bar-side-menu {
+  border-color: transparent;
+  background-color: #cb3d4d;
+  background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+  color: #ffffff;
+  height: 80px !important; }
+  .bar-side-menu .title {
+    color: #ffffff; }
+  .bar-side-menu .item, .bar-side-menu .mm-grades-table .itemcenter, .mm-grades-table .bar-side-menu .itemcenter {
+    background: transparent;
+    border: none; }
+  .bar-side-menu .item-avatar, .bar-side-menu .item-media, .bar-side-menu .item-avatar-center, .bar-side-menu .item-progress {
+    margin-top: 0px !important; }
+    .bar-side-menu .item-avatar h2, .bar-side-menu .item-media h2, .bar-side-menu .item-avatar-center h2, .bar-side-menu .item-progress h2, .bar-side-menu .item-avatar .item .item-heading, .item .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .item .item-heading, .item .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .item .item-heading, .item .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .item .item-heading, .item .bar-side-menu .item-progress .item-heading, .bar-side-menu .item-avatar .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-progress .item-heading,
+    .bar-side-menu .item-avatar p,
+    .bar-side-menu .item-media p,
+    .bar-side-menu .item-avatar-center p,
+    .bar-side-menu .item-progress p,
+    .bar-side-menu .item-avatar .icon,
+    .bar-side-menu .item-media .icon,
+    .bar-side-menu .item-avatar-center .icon,
+    .bar-side-menu .item-progress .icon {
+      color: #ffffff; }
+
+.has-side-menu-header {
+  top: 80px; }
+
+.mm-sidemenu-menu .item .badge, .mm-sidemenu-menu .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-sidemenu-menu .itemcenter .badge, .mm-sidemenu-menu .item .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-sidemenu-menu .itemcenter span {
+  right: 16px; }
+
+ion-side-menu li .item, ion-side-menu li .mm-grades-table .itemcenter, .mm-grades-table ion-side-menu li .itemcenter,
+ion-side-menu li.item,
+ion-side-menu .mm-grades-table li.itemcenter, .mm-grades-table
+ion-side-menu li.itemcenter {
+  border-color: #dddddd;
+  background-color: #ffffff;
+  color: #3a3a3a; }
+  ion-side-menu li .item .icon, ion-side-menu li .mm-grades-table .itemcenter .icon, .mm-grades-table ion-side-menu li .itemcenter .icon,
+  ion-side-menu li.item .icon,
+  ion-side-menu .mm-grades-table li.itemcenter .icon, .mm-grades-table
+  ion-side-menu li.itemcenter .icon {
+    color: #626262; }
+
+ion-side-menu li.item.item-divider, ion-side-menu .mm-grades-table li.item-divider.itemcenter, .mm-grades-table ion-side-menu li.item-divider.itemcenter {
+  background-color: #f5f5f5; }
+
+.foreground-ion-edit.ion-edit:before {
+  position: relative;
+  left: 120px;
+  bottom: 15px;
+  font-size: 24px; }
+
+.mm-site_mm_user-profile .mm-tab-handlers {
+  padding-bottom: 16px; }
+
 .mm-mm_login_sites .item-thumbnail-left .item-content {
   padding-top: 16px;
   padding-right: 16px; }
@@ -13255,69 +13319,14 @@ li.mm-question-answer-incorrect,
 .questioncorrectnessicon {
   font-size: 20px; }
 
-#mm-settings-languagelabel {
-  color: #3a3a3a; }
-
-.bar-side-menu {
-  border-color: transparent;
-  background-color: #cb3d4d;
-  background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
-  color: #ffffff;
-  height: 80px !important; }
-  .bar-side-menu .title {
-    color: #ffffff; }
-  .bar-side-menu .item, .bar-side-menu .mm-grades-table .itemcenter, .mm-grades-table .bar-side-menu .itemcenter {
-    background: transparent;
-    border: none; }
-  .bar-side-menu .item-avatar, .bar-side-menu .item-media, .bar-side-menu .item-avatar-center, .bar-side-menu .item-progress {
-    margin-top: 0px !important; }
-    .bar-side-menu .item-avatar h2, .bar-side-menu .item-media h2, .bar-side-menu .item-avatar-center h2, .bar-side-menu .item-progress h2, .bar-side-menu .item-avatar .item .item-heading, .item .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .item .item-heading, .item .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .item .item-heading, .item .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .item .item-heading, .item .bar-side-menu .item-progress .item-heading, .bar-side-menu .item-avatar .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar .item-heading, .bar-side-menu .item-media .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-media .item-heading, .bar-side-menu .item-avatar-center .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-avatar-center .item-heading, .bar-side-menu .item-progress .mm-grades-table .itemcenter .item-heading, .mm-grades-table .itemcenter .bar-side-menu .item-progress .item-heading,
-    .bar-side-menu .item-avatar p,
-    .bar-side-menu .item-media p,
-    .bar-side-menu .item-avatar-center p,
-    .bar-side-menu .item-progress p,
-    .bar-side-menu .item-avatar .icon,
-    .bar-side-menu .item-media .icon,
-    .bar-side-menu .item-avatar-center .icon,
-    .bar-side-menu .item-progress .icon {
-      color: #ffffff; }
-
-.has-side-menu-header {
-  top: 80px; }
-
-.mm-sidemenu-menu .item .badge, .mm-sidemenu-menu .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-sidemenu-menu .itemcenter .badge, .mm-sidemenu-menu .item .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item
+.mm-site_coursesgrades .item .badge, .mm-site_coursesgrades .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-site_coursesgrades .itemcenter .badge, .mm-site_coursesgrades .item .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item
 .mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter
+.mma-messages-unreadfrom .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter
 .mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter
+.mma-messages-unreadfrom .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter
 .mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-grades-table .mm-sidemenu-menu .itemcenter span, .mm-sidemenu-menu .item .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .item span, .mm-sidemenu-menu .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-sidemenu-menu .mm-grades-table .itemcenter span, .mm-grades-table .mm-sidemenu-menu .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-sidemenu-menu .itemcenter span {
+.mma-messages-unreadfrom .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-site_coursesgrades .itemcenter span {
   right: 16px; }
-
-ion-side-menu li .item, ion-side-menu li .mm-grades-table .itemcenter, .mm-grades-table ion-side-menu li .itemcenter,
-ion-side-menu li.item,
-ion-side-menu .mm-grades-table li.itemcenter, .mm-grades-table
-ion-side-menu li.itemcenter {
-  border-color: #dddddd;
-  background-color: #ffffff;
-  color: #3a3a3a; }
-  ion-side-menu li .item .icon, ion-side-menu li .mm-grades-table .itemcenter .icon, .mm-grades-table ion-side-menu li .itemcenter .icon,
-  ion-side-menu li.item .icon,
-  ion-side-menu .mm-grades-table li.itemcenter .icon, .mm-grades-table
-  ion-side-menu li.itemcenter .icon {
-    color: #626262; }
-
-ion-side-menu li.item.item-divider, ion-side-menu .mm-grades-table li.item-divider.itemcenter, .mm-grades-table ion-side-menu li.item-divider.itemcenter {
-  background-color: #f5f5f5; }
-
-.foreground-ion-edit.ion-edit:before {
-  position: relative;
-  left: 120px;
-  bottom: 15px;
-  font-size: 24px; }
-
-.mm-site_mm_user-profile .mm-tab-handlers {
-  padding-bottom: 16px; }
 
 .mm-site_frontpage .mma-frontpage-item-container .item-media {
   min-height: 55px;
@@ -13336,15 +13345,6 @@ ion-side-menu li.item.item-divider, ion-side-menu .mm-grades-table li.item-divid
 .mm-site_frontpage .mm-frontpageitemnews .mm-module-buttons {
   width: 30px;
   height: 22px; }
-
-.mm-site_coursesgrades .item .badge, .mm-site_coursesgrades .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-site_coursesgrades .itemcenter .badge, .mm-site_coursesgrades .item .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter
-.mma-messages-unreadfrom span,
-.mma-messages-unreadfrom .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-site_coursesgrades .itemcenter span {
-  right: 16px; }
 
 .mma-messages-date,
 .mma-messages-unreadfrom {
@@ -13987,89 +13987,6 @@ p.mma-mod-assign-warning {
   .mm-site_mod_lesson-userretake .highlight p {
     color: #004c9f; }
 
-p.mma-mod-quiz-warning {
-  color: #cb3d4d; }
-
-.mm-site_mod_quiz .row, .mm-site_mod_quiz .mm-data-contents tr, .mm-data-contents .mm-site_mod_quiz tr, .mm-site_mod_quiz-player .row, .mm-site_mod_quiz-player .mm-data-contents tr, .mm-data-contents .mm-site_mod_quiz-player tr {
-  min-height: 57px; }
-  .mm-site_mod_quiz .row .button.button-block, .mm-site_mod_quiz .mm-data-contents tr .button.button-block, .mm-data-contents .mm-site_mod_quiz tr .button.button-block, .mm-site_mod_quiz-player .row .button.button-block, .mm-site_mod_quiz-player .mm-data-contents tr .button.button-block, .mm-data-contents .mm-site_mod_quiz-player tr .button.button-block {
-    margin: 0; }
-
-.item.mma-mod-quiz-highlighted, .mm-grades-table .mma-mod-quiz-highlighted.itemcenter,
-.platform-android .item.mma-mod-quiz-highlighted,
-.platform-android .mm-grades-table .mma-mod-quiz-highlighted.itemcenter, .mm-grades-table
-.platform-android .mma-mod-quiz-highlighted.itemcenter,
-.platform-ios .item.mma-mod-quiz-highlighted,
-.platform-ios .mm-grades-table .mma-mod-quiz-highlighted.itemcenter, .mm-grades-table
-.platform-ios .mma-mod-quiz-highlighted.itemcenter,
-.mma-mod-quiz-table .item.row.mma-mod-quiz-highlighted,
-.mma-mod-quiz-table .mm-grades-table .row.mma-mod-quiz-highlighted.itemcenter, .mm-grades-table
-.mma-mod-quiz-table .row.mma-mod-quiz-highlighted.itemcenter,
-.mma-mod-quiz-table .mm-grades-table .mm-data-contents tr.mma-mod-quiz-highlighted.itemcenter, .mm-grades-table .mm-data-contents
-.mma-mod-quiz-table tr.mma-mod-quiz-highlighted.itemcenter,
-.mma-mod-quiz-table .mm-data-contents .mm-grades-table tr.mma-mod-quiz-highlighted.itemcenter, .mm-data-contents .mm-grades-table
-.mma-mod-quiz-table tr.mma-mod-quiz-highlighted.itemcenter,
-.mma-mod-quiz-table .mm-data-contents tr.item.mma-mod-quiz-highlighted, .mm-data-contents
-.mma-mod-quiz-table tr.item.mma-mod-quiz-highlighted,
-.item.mma-mod-quiz-highlighted p, .mm-grades-table .mma-mod-quiz-highlighted.itemcenter p {
-  background-color: #cce0f6;
-  color: #004c9f; }
-
-.mma-quiz-textarea {
-  width: 100%;
-  height: 250px;
-  resize: none; }
-
-.mma-mod-quiz-subheader {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-  .mma-mod-quiz-subheader .row, .mma-mod-quiz-subheader .mm-data-contents tr, .mm-data-contents .mma-mod-quiz-subheader tr, .mma-mod-quiz-subheader .col, .mma-mod-quiz-subheader .mm-data-contents td, .mm-data-contents .mma-mod-quiz-subheader td, .mma-mod-quiz-subheader .mm-data-contents th, .mm-data-contents .mma-mod-quiz-subheader th {
-    padding-top: 0px;
-    padding-bottom: 0px; }
-  .mma-mod-quiz-subheader .mm-timer {
-    min-height: 41px;
-    border: 0;
-    padding: 1px 0 1px 25px; }
-    .mma-mod-quiz-subheader .mm-timer .icon {
-      left: 0;
-      font-size: 24px; }
-    .mma-mod-quiz-subheader .mm-timer label {
-      font-size: 14px; }
-    .mma-mod-quiz-subheader .mm-timer span {
-      display: block; }
-    .mma-mod-quiz-subheader .mm-timer span.mm-timesup {
-      line-height: 40px; }
-
-.mma-mod-quiz-table .row:nth-child(odd), .mma-mod-quiz-table .mm-data-contents tr:nth-child(odd), .mm-data-contents .mma-mod-quiz-table tr:nth-child(odd) {
-  background-color: #f5f5f5; }
-
-.mma-mod_quiz-connection-error, ion-popover-view.popover.mma-mod_quiz-connection-error {
-  background-color: #f5d8db; }
-
-.mm-site_mod_quiz-review .item h3, .mm-site_mod_quiz-review .mm-grades-table .itemcenter h3, .mm-grades-table .mm-site_mod_quiz-review .itemcenter h3 {
-  font-size: 18px; }
-
-.item.mma-mod-quiz-selected, .mm-grades-table .mma-mod-quiz-selected.itemcenter,
-.platform-android .item.mma-mod-quiz-selected,
-.platform-android .mm-grades-table .mma-mod-quiz-selected.itemcenter, .mm-grades-table
-.platform-android .mma-mod-quiz-selected.itemcenter,
-.platform-ios .item.mma-mod-quiz-selected,
-.platform-ios .mm-grades-table .mma-mod-quiz-selected.itemcenter, .mm-grades-table
-.platform-ios .mma-mod-quiz-selected.itemcenter,
-.mma-mod-quiz-table .item.row.mma-mod-quiz-selected,
-.mma-mod-quiz-table .mm-grades-table .row.mma-mod-quiz-selected.itemcenter, .mm-grades-table
-.mma-mod-quiz-table .row.mma-mod-quiz-selected.itemcenter,
-.mma-mod-quiz-table .mm-grades-table .mm-data-contents tr.mma-mod-quiz-selected.itemcenter, .mm-grades-table .mm-data-contents
-.mma-mod-quiz-table tr.mma-mod-quiz-selected.itemcenter,
-.mma-mod-quiz-table .mm-data-contents .mm-grades-table tr.mma-mod-quiz-selected.itemcenter, .mm-data-contents .mm-grades-table
-.mma-mod-quiz-table tr.mma-mod-quiz-selected.itemcenter,
-.mma-mod-quiz-table .mm-data-contents tr.item.mma-mod-quiz-selected, .mm-data-contents
-.mma-mod-quiz-table tr.item.mma-mod-quiz-selected {
-  background: #cce0f6; }
-
-#mma-mod-quiz-toc .item, #mma-mod-quiz-toc .mm-grades-table .itemcenter, .mm-grades-table #mma-mod-quiz-toc .itemcenter {
-  border-color: #9e9e9e; }
-
 .mma-scorm-level-0 {
   padding-left: 16px; }
 
@@ -14210,6 +14127,89 @@ ion-popover-view {
 .mm-site_mod_workshop-assessment p.mm-has-overriden-grade {
   color: #cb3d4d;
   text-decoration: line-through; }
+
+p.mma-mod-quiz-warning {
+  color: #cb3d4d; }
+
+.mm-site_mod_quiz .row, .mm-site_mod_quiz .mm-data-contents tr, .mm-data-contents .mm-site_mod_quiz tr, .mm-site_mod_quiz-player .row, .mm-site_mod_quiz-player .mm-data-contents tr, .mm-data-contents .mm-site_mod_quiz-player tr {
+  min-height: 57px; }
+  .mm-site_mod_quiz .row .button.button-block, .mm-site_mod_quiz .mm-data-contents tr .button.button-block, .mm-data-contents .mm-site_mod_quiz tr .button.button-block, .mm-site_mod_quiz-player .row .button.button-block, .mm-site_mod_quiz-player .mm-data-contents tr .button.button-block, .mm-data-contents .mm-site_mod_quiz-player tr .button.button-block {
+    margin: 0; }
+
+.item.mma-mod-quiz-highlighted, .mm-grades-table .mma-mod-quiz-highlighted.itemcenter,
+.platform-android .item.mma-mod-quiz-highlighted,
+.platform-android .mm-grades-table .mma-mod-quiz-highlighted.itemcenter, .mm-grades-table
+.platform-android .mma-mod-quiz-highlighted.itemcenter,
+.platform-ios .item.mma-mod-quiz-highlighted,
+.platform-ios .mm-grades-table .mma-mod-quiz-highlighted.itemcenter, .mm-grades-table
+.platform-ios .mma-mod-quiz-highlighted.itemcenter,
+.mma-mod-quiz-table .item.row.mma-mod-quiz-highlighted,
+.mma-mod-quiz-table .mm-grades-table .row.mma-mod-quiz-highlighted.itemcenter, .mm-grades-table
+.mma-mod-quiz-table .row.mma-mod-quiz-highlighted.itemcenter,
+.mma-mod-quiz-table .mm-grades-table .mm-data-contents tr.mma-mod-quiz-highlighted.itemcenter, .mm-grades-table .mm-data-contents
+.mma-mod-quiz-table tr.mma-mod-quiz-highlighted.itemcenter,
+.mma-mod-quiz-table .mm-data-contents .mm-grades-table tr.mma-mod-quiz-highlighted.itemcenter, .mm-data-contents .mm-grades-table
+.mma-mod-quiz-table tr.mma-mod-quiz-highlighted.itemcenter,
+.mma-mod-quiz-table .mm-data-contents tr.item.mma-mod-quiz-highlighted, .mm-data-contents
+.mma-mod-quiz-table tr.item.mma-mod-quiz-highlighted,
+.item.mma-mod-quiz-highlighted p, .mm-grades-table .mma-mod-quiz-highlighted.itemcenter p {
+  background-color: #cce0f6;
+  color: #004c9f; }
+
+.mma-quiz-textarea {
+  width: 100%;
+  height: 250px;
+  resize: none; }
+
+.mma-mod-quiz-subheader {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+  .mma-mod-quiz-subheader .row, .mma-mod-quiz-subheader .mm-data-contents tr, .mm-data-contents .mma-mod-quiz-subheader tr, .mma-mod-quiz-subheader .col, .mma-mod-quiz-subheader .mm-data-contents td, .mm-data-contents .mma-mod-quiz-subheader td, .mma-mod-quiz-subheader .mm-data-contents th, .mm-data-contents .mma-mod-quiz-subheader th {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .mma-mod-quiz-subheader .mm-timer {
+    min-height: 41px;
+    border: 0;
+    padding: 1px 0 1px 25px; }
+    .mma-mod-quiz-subheader .mm-timer .icon {
+      left: 0;
+      font-size: 24px; }
+    .mma-mod-quiz-subheader .mm-timer label {
+      font-size: 14px; }
+    .mma-mod-quiz-subheader .mm-timer span {
+      display: block; }
+    .mma-mod-quiz-subheader .mm-timer span.mm-timesup {
+      line-height: 40px; }
+
+.mma-mod-quiz-table .row:nth-child(odd), .mma-mod-quiz-table .mm-data-contents tr:nth-child(odd), .mm-data-contents .mma-mod-quiz-table tr:nth-child(odd) {
+  background-color: #f5f5f5; }
+
+.mma-mod_quiz-connection-error, ion-popover-view.popover.mma-mod_quiz-connection-error {
+  background-color: #f5d8db; }
+
+.mm-site_mod_quiz-review .item h3, .mm-site_mod_quiz-review .mm-grades-table .itemcenter h3, .mm-grades-table .mm-site_mod_quiz-review .itemcenter h3 {
+  font-size: 18px; }
+
+.item.mma-mod-quiz-selected, .mm-grades-table .mma-mod-quiz-selected.itemcenter,
+.platform-android .item.mma-mod-quiz-selected,
+.platform-android .mm-grades-table .mma-mod-quiz-selected.itemcenter, .mm-grades-table
+.platform-android .mma-mod-quiz-selected.itemcenter,
+.platform-ios .item.mma-mod-quiz-selected,
+.platform-ios .mm-grades-table .mma-mod-quiz-selected.itemcenter, .mm-grades-table
+.platform-ios .mma-mod-quiz-selected.itemcenter,
+.mma-mod-quiz-table .item.row.mma-mod-quiz-selected,
+.mma-mod-quiz-table .mm-grades-table .row.mma-mod-quiz-selected.itemcenter, .mm-grades-table
+.mma-mod-quiz-table .row.mma-mod-quiz-selected.itemcenter,
+.mma-mod-quiz-table .mm-grades-table .mm-data-contents tr.mma-mod-quiz-selected.itemcenter, .mm-grades-table .mm-data-contents
+.mma-mod-quiz-table tr.mma-mod-quiz-selected.itemcenter,
+.mma-mod-quiz-table .mm-data-contents .mm-grades-table tr.mma-mod-quiz-selected.itemcenter, .mm-data-contents .mm-grades-table
+.mma-mod-quiz-table tr.mma-mod-quiz-selected.itemcenter,
+.mma-mod-quiz-table .mm-data-contents tr.item.mma-mod-quiz-selected, .mm-data-contents
+.mma-mod-quiz-table tr.item.mma-mod-quiz-selected {
+  background: #cce0f6; }
+
+#mma-mod-quiz-toc .item, #mma-mod-quiz-toc .mm-grades-table .itemcenter, .mm-grades-table #mma-mod-quiz-toc .itemcenter {
+  border-color: #9e9e9e; }
 
 .qbehaviour_deferredcbm_actual_percentage {
   font-weight: bold; }
