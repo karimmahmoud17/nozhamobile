@@ -158,7 +158,19 @@
         <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         <uses-permission android:name="android.permission.VIBRATE"/>
     </gap:config-file>
+    <gap:plugin name="cordova-android-support-gradle-release" spec="https://github.com/dpa99c/cordova-android-support-gradle-             release">
 
+        <variable name="ANDROID_SUPPORT_VERSION" value="27.+" />
+
+    </gap:plugin>
+
+ 
+
+and on the targetSDKVersion improve it to 27, it will looks like
+
+<preference name="android-targetSdkVersion" value="27" />
+
+ 
     <gap:config-file platform="ios" parent="CFBundleDocumentTypes" mode="add">
         <array>
             <dict>
